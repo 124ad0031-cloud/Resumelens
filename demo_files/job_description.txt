@@ -1,0 +1,14 @@
+Machine Learning Engineer (NLP) - Acme Analytics
+
+About the role
+We build tools that help companies understand what their customers write and say.
+
+Requirements
+- Build and deploy machine learning models for text classification and information extraction.
+- Strong Python programming skills with PyTorch or TensorFlow.
+- Experience with Transformer models such as BERT and the Hugging Face library.
+- Ability to write SQL queries to analyse large datasets.
+- Experience deploying services with Docker on a cloud platform such as AWS.
+- Build REST APIs that serve models to other teams.
+- Communicate findings clearly to non-technical stakeholders.
+- Familiarity with Git and agile team workflows.

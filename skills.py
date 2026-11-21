@@ -1,0 +1,27 @@
+"""A small skill dictionary: canonical skill name -> list of ways it is written in resumes."""
+
+SKILLS = {
+    "python": ["python"], "sql": ["sql"], "java": ["java"], "javascript": ["javascript"],
+    "typescript": ["typescript"], "html": ["html"], "css": ["css"], "react": ["react", "react.js"],
+    "node.js": ["node.js", "nodejs"], "flask": ["flask"], "django": ["django"], "fastapi": ["fastapi"],
+    "rest api": ["rest api", "rest apis", "restful"], "docker": ["docker"], "kubernetes": ["kubernetes", "k8s"],
+    "aws": ["aws", "amazon web services"], "azure": ["azure"], "gcp": ["gcp", "google cloud"],
+    "git": ["git", "github", "gitlab"], "linux": ["linux"], "ci/cd": ["ci/cd", "cicd", "continuous integration"],
+    "machine learning": ["machine learning", "ml"], "deep learning": ["deep learning", "neural network", "neural networks"],
+    "nlp": ["nlp", "natural language processing"], "computer vision": ["computer vision", "image classification", "object detection"],
+    "pytorch": ["pytorch"], "tensorflow": ["tensorflow", "keras"], "scikit-learn": ["scikit-learn", "sklearn", "scikit learn"],
+    "pandas": ["pandas"], "numpy": ["numpy"], "spark": ["spark", "pyspark"], "hadoop": ["hadoop"],
+    "tableau": ["tableau"], "power bi": ["power bi", "powerbi"], "excel": ["excel"],
+    "statistics": ["statistics", "statistical"], "a/b testing": ["a/b testing", "ab testing", "a/b tests"],
+    "data visualization": ["data visualization", "data visualisation", "dashboards", "dashboard"],
+    "etl": ["etl", "data pipelines", "data pipeline"], "airflow": ["airflow"],
+    "postgresql": ["postgresql", "postgres"], "mysql": ["mysql"], "mongodb": ["mongodb"],
+    "data analysis": ["data analysis", "data analytics", "analyse data", "analyze data"],
+    "hugging face": ["hugging face", "huggingface"], "transformers": ["transformer", "transformers", "bert", "distilbert", "roberta"],
+    "llm": ["llm", "llms", "large language model", "large language models"],
+    "mlops": ["mlops", "model deployment", "deploying models"], "feature engineering": ["feature engineering"],
+    "time series": ["time series", "forecasting"], "matplotlib": ["matplotlib", "seaborn"],
+    "communication": ["communication", "presentations", "stakeholders"], "leadership": ["leadership", "led a team", "team lead", "mentored"],
+    "agile": ["agile", "scrum", "kanban"], "project management": ["project management"],
+    "ui design": ["ui design", "ux", "figma", "responsive design"],
+}

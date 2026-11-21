@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+
+# personal viva / demo prep (not part of the submission)
+docs/VIVA_QA.md
+docs/STUDY_GUIDE.md
+docs/PROJECT_REPORT.md

@@ -1,0 +1,4 @@
+Method,Top1,Spearman
+Keyword (TF-IDF),0.667,0.71
+Semantic (Transformer),0.667,0.71
+Hybrid (ResumeLens),0.667,0.745

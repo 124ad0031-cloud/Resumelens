@@ -1,0 +1,10 @@
+Job,Method,Top candidate,Top-1,Spearman
+ML Engineer (NLP),Keyword (TF-IDF),Daniel Roy,0,0.5270462766947298
+ML Engineer (NLP),Semantic (Transformer),Daniel Roy,0,0.5270462766947298
+ML Engineer (NLP),Hybrid (ResumeLens),Daniel Roy,0,0.5270462766947298
+Data Analyst,Keyword (TF-IDF),Rahul Mehta,1,0.8944271909999159
+Data Analyst,Semantic (Transformer),Rahul Mehta,1,0.8944271909999159
+Data Analyst,Hybrid (ResumeLens),Rahul Mehta,1,0.9176629354822471
+Front-End Developer,Keyword (TF-IDF),Priya Nair,1,0.7071067811865475
+Front-End Developer,Semantic (Transformer),Priya Nair,1,0.7071067811865475
+Front-End Developer,Hybrid (ResumeLens),Priya Nair,1,0.7905694150420948
