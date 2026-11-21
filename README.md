@@ -15,7 +15,6 @@ resumelens/
 ├── evaluate.py     # keyword vs Transformer vs hybrid: Top-1 and Spearman
 ├── demo_files/     # job_description.txt + 5 resume PDFs (for the live upload demo)
 ├── requirements.txt
-└── docs/  STUDY_GUIDE.md  VIVA_QA.md  PROJECT_REPORT.md
 ```
 
 ## Install and run (Python 3.9+, no GPU)
@@ -25,7 +24,7 @@ python -m venv venv
 venv\Scripts\activate            # Mac/Linux: source venv/bin/activate
 pip install -r requirements.txt
 python test_core.py
-python evaluate.py             # numbers for Section 6 of the report
+python evaluate.py             
 streamlit run app.py
 ```
 * **First run needs internet** to download the model (about 90 MB). Do this TONIGHT. Afterwards it works offline.
@@ -43,7 +42,7 @@ streamlit run app.py
    (try `Meera_Iyer.pdf`, which is not in the built-in demo).
 5. Turn on **Blind screening**.
 
-## IMPORTANT before your demo
+## IMPORTANT before execution
 Run `python test_core.py` and read the printed ranking. The thresholds (0.50 strong / 0.35 partial) are sensible
 defaults for this model but were NOT calibrated on the real weights. If something looks off, adjust the sliders in
 the sidebar and decide which values you will use, then write them in your report.
